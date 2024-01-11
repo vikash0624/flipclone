@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    font-family: arial;
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #ffffff;
+    color:  #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+    border-bottom: 0.1px solid rgb(226, 223, 223);
+}
+
+.nav-logo{
+    height: 40px;
+    width: 160px;
+}
+
+.logo{
+    background-image: url("Flipkartlogo.jpg");
+    background-size: cover;
+    margin-left: 0;
+    height: 40px;
+    width: 160px;
+}
+/** box2 **/
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(237, 245, 245);
+    width: 500px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.search-icon{
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+}
+
+.search-input{
+    width: 100%;
+    background-color: rgb(237, 245, 245);
+    font-size: 1rem;
+    border: none;
+}
+/** box3 **/
+
+.nav-login i {
+    font-size: 1rem;
+    margin-right: 8px;
+}
+
+/** box4 **/
+
+.nav-cart i {
+    font-size: 1;
+    margin-right: 8px;
+}
+
+/** box5 **/
+
+.nav-sell i {
+    font-size: 1;
+    margin-right: 8px;
+}
+
+.total-body{
+ background-color: rgb(239, 243, 245);
+}
+
+.top-class{
+   border: 0.1px solid rgb(204, 204, 204);
+   background-size: cover;
+   height: 150px;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:white; 
+    margin-top: 30px;
+}
+
+.box{
+    /* border: 2px solid black; */
+    height: 117px;
+    width: 9%;
+    padding: 16px 16px 16px 24px;
+}
+
+.box-image{
+    height: 64px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-weight: 500;
+}
+
+.hero-section{
+    background-image: url("hero_image.webp");
+    margin-top: 30px;
+    /* border: 2px solid red; */
+    background-size: cover;
+    height: 220px;
+}
+
+.hero-msg{
+    color: black;
+    background-color: rgb(218, 147, 89);
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 80%; */
+}
+
+.heading{
+    margin: 20px 0px 20px 10px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.photo-section{
+    /* border: 2px solid black; */
+    background-size: cover;
+    height: 200px;
+     display: flex;
+     flex-wrap: wrap; 
+     justify-content: space-evenly;
+     align-items: center;
+     background-color:white; 
+     /* margin-top: 30px; */
+ }
+
+ .dabba{
+    border: 0.0001px solid rgb(196, 193, 193);
+    height: 150px;
+    width: 12%;
+    background-color: white;
+    padding: 16px 16px 16px 24px;
+}
+
+.dabba-image{
+    height: 114px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.footer{
+    margin-top: 15px;
+}
+
+.foot-pannel1{
+    
+   background-color: rgba(15, 14, 14, 0.904);
+   color: white;
+   height: 250px;
+   display: flex;
+   justify-content: space-evenly;
+
+}
+
+ul{
+    margin-top: 50px;
+    color: #878787;
+    font-size: 0.85rem;
+}
+
+ul a {
+    display: block;
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-top: 5px;
+    color: white;
+}
+
+.foot-pannel2{
+    background-color: rgba(15, 14, 14, 0.904);
+    border-top: 0.5px solid #878787;
+    color: #FFFFFF;
+    height: 70px;
+    font-size: 0.82rem;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.foot-pannel2 i {
+    color: goldenrod;
+}
+
+
